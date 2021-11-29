@@ -11,5 +11,5 @@ localDate.innerHTML = "l'heure en ce jour est : " +new Date();
 let ceJour = new Date();
 resultat.innerHTML = ceJour;
 
-let data1 = ceJour+ceJour.setDate(+2);
+let data1 = ceJour+ceJour.setHours(+6);
 resultat1.innerHTML =data1;
